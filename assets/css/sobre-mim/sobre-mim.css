@@ -1,0 +1,14 @@
+.sobre-mim {
+  background: var(--cinza-azulado-claro);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .sobre-mim {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+}

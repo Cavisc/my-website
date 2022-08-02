@@ -1,0 +1,10 @@
+.menu__link {
+  color: var(--cinza-azulado);
+  font-weight: 600;
+  transition: .3s;
+}
+
+.menu__link:hover {
+  border-bottom: 1px solid var(--cinza-taupe);
+  color: var(--cinza-taupe);
+}

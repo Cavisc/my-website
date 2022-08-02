@@ -1,0 +1,9 @@
+.contato {
+  align-items: center;
+  background: var(--cinza-azulado-claro);
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}

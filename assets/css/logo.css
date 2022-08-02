@@ -1,0 +1,17 @@
+.logo {
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(240deg, var(--cinza-taupe), var(--cinza-azulado));
+  border-image-slice: 1;
+  color: var(--cinza-taupe);
+  font-family: 'Spline Sans Mono', monospace;
+}
+
+.dif-color {
+  color: var(--cinza-azulado);
+}
+
+@media screen and (max-width: 425px) {
+  .logo {
+    font-size: .8rem;
+  }
+}

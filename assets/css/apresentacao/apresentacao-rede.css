@@ -1,0 +1,15 @@
+.apresentacao__rede {
+  font-size: .7rem;
+}
+
+@media screen and (max-width: 768px) {
+  .apresentacao__rede {
+    font-size: .6rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .apresentacao__rede {
+    font-size: .525rem;
+  }
+}

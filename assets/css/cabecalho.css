@@ -1,0 +1,22 @@
+.cabecalho {
+  align-items: center;
+  background: var(--branco);
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .cabecalho {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cabecalho {
+    padding-bottom: 1.2rem;
+    padding-top: 1.2rem;
+  }
+}

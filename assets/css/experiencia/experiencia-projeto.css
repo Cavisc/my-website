@@ -1,0 +1,16 @@
+.experiencia__projeto {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.experiencia__projeto-forca {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 425px) {
+  .experiencia__projeto {
+    flex-direction: column;
+  }
+}

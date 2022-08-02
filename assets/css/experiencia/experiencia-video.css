@@ -1,0 +1,16 @@
+.experiencia__video {
+  border-radius: 20px;
+  overflow: hidden;
+  width: 85%;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  .experiencia__video {
+    width: 100%;
+  }
+}

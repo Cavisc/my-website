@@ -1,0 +1,13 @@
+.formacao__image {
+  height: 120px;
+  margin: 0 auto;
+  width: 120px;
+}
+
+.formacao__image-puc {
+  background: url(../../imgs/puc.png) no-repeat center / cover;
+}
+
+.formacao__image-alura {
+  background: url(../../imgs/alura.png) no-repeat center / contain;
+}

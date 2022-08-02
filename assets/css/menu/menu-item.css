@@ -1,0 +1,20 @@
+.menu__item {
+  font-size: .8rem;
+}
+
+.menu__item--email {
+  color: var(--cinza);
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__item {
+    display: none;
+  }
+
+  .menu__item--email {
+    position: absolute;
+    right: 0;
+  }
+}

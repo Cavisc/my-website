@@ -1,0 +1,18 @@
+.side-space {
+  padding-left: 152px;
+  padding-right: 152px;
+}
+
+@media screen and (max-width: 768px) {
+  .side-space {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .side-space {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

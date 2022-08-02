@@ -1,0 +1,33 @@
+.contato__nome {
+  border: none;
+  border-radius: 10px;
+  caret-color: var(--cinza-azulado);
+  color: var(--cinza-taupe);
+  padding: .5rem;
+  outline: none;
+  width: 95%;
+}
+
+.contato__nome.invalido {
+  border-bottom: 2px solid #a70f0f;
+}
+
+.contato__nome.valido {
+  border-bottom: 2px solid #0c7912;
+}
+
+.contato__nome-span {
+  color: #a70f0f;
+  margin-right: .2rem;
+  opacity: 0;
+  padding: .2rem;
+  position: absolute;
+  right: 0;
+  transition: opacity .5s;
+}
+
+@media screen and (max-width: 425px) {
+  .contato__nome-span {
+    top: -1px;
+  }
+}

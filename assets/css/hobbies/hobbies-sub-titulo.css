@@ -1,0 +1,11 @@
+.hobbies__sub-titulo {
+  color: var(--cinza-taupe);
+  font-size: .6rem;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 425px) {
+  .hobbies__sub-titulo {
+    font-size: .5rem;
+  }
+}

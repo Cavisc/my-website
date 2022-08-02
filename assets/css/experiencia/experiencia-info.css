@@ -1,0 +1,12 @@
+.experiencia__info {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 425px) {
+  .experiencia__info {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}

@@ -1,0 +1,14 @@
+.formacao__cards {
+  align-items: center;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 425px) {
+  .formacao__cards {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

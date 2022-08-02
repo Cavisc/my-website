@@ -1,0 +1,31 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+    --branco: #F9f9f9;
+    --cinza-azulado-claro: #E9EBF8;
+    --cinza-azulado: #B4B8C5;
+    --cinza: #A5A299;
+    --cinza-taupe: #8D818C;
+    --cinza-escuro: #484247;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

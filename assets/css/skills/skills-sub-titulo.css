@@ -1,0 +1,11 @@
+.skills__sub-titulo {
+  color: var(--cinza);
+  font-size: .6rem;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 425px) {
+  .skills__sub-titulo {
+    font-size: .5rem;
+  }
+}

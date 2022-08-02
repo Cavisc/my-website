@@ -1,0 +1,10 @@
+.apresentacao__saudacao {
+  color: var(--cinza-escuro);
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .apresentacao__saudacao {
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,25 @@
+.volta-topo {
+  align-items: center;
+  background: var(--cinza-taupe);
+  bottom: 1rem;
+  clip-path: circle();
+  color: var(--branco);
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  padding: .3rem;
+  position: fixed;
+  opacity: 0;
+  right: 1rem;
+  transform: translateY(100%);
+  transition: .3s;
+  visibility: hidden;
+  width: 30px;
+
+}
+
+.volta-topo.mostra {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}

@@ -1,0 +1,17 @@
+.contato__image {
+  background: url(../../imgs/undraw.svg) no-repeat center / cover;
+  height: 300px;
+  width: 400px;
+}
+
+@media screen and (min-width: 1440px) {
+  .contato__image {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contato__image {
+    display: none;
+  }
+}

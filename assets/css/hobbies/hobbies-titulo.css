@@ -1,0 +1,10 @@
+.hobbies__titulo {
+  color: var(--cinza-escuro);
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .hobbies__titulo {
+    font-size: 1rem;
+  }
+}

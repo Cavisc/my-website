@@ -1,0 +1,11 @@
+.apresentacao__redes {
+  align-items: flex-start;
+  display: flex;
+  gap: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .apresentacao__redes {
+    gap: 1rem;
+  }
+}

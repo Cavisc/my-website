@@ -1,0 +1,22 @@
+.hobbies__cards {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .hobbies__cards {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hobbies__cards {
+    display: grid;
+    grid-template-columns: calc(40% - 16px) calc(40% - 16px);
+    justify-items: center;
+  }
+}

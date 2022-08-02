@@ -1,0 +1,4 @@
+.contato__informacoes {
+  display: flex;
+  flex-direction: column;
+}

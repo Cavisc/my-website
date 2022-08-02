@@ -1,0 +1,13 @@
+.contato__formulario {
+  display: flex;
+  flex-direction: column;
+  font-size: .8rem;
+  gap: 1rem;
+  position: relative;
+}
+
+@media screen and (max-width: 425px) {
+  .contato__formulario {
+    font-size: .7rem;
+  }
+}

@@ -1,0 +1,9 @@
+.apresentacao__link {
+  color: var(--cinza);
+  font-weight: 500;
+  transition: .3s;
+}
+
+.apresentacao__link:hover {
+  color: var(--cinza-tauper);
+}

@@ -1,0 +1,16 @@
+.hobbies {
+  align-items: center;
+  background: var(--branco);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+@media screen and (max-width: 425px) {
+  .hobbies {
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+  }
+}

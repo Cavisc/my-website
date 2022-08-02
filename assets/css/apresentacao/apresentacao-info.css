@@ -1,0 +1,11 @@
+.apresentacao__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 425px) {
+  .apresentacao__info {
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,10 @@
+.contato__texto {
+  color: var(--cinza);
+  font-size: .7rem;
+}
+
+@media screen and (max-width: 425px) {
+  .contato__texto {
+    font-size: .6rem;
+  }
+}

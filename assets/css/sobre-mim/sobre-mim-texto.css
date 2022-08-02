@@ -1,0 +1,20 @@
+.sobre-mim__texto {
+  color: var(--cinza-taupe);
+  font-size: .75rem;
+  font-weight: 500;
+  text-align: justify;
+  width: 65%;
+}
+
+@media screen and (max-width: 768px) {
+  .sobre-mim__texto {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .sobre-mim__texto {
+    font-size: .6rem;
+    text-align: unset;
+  }
+}
