@@ -1,12 +1,12 @@
 .contato__image {
-  background: url(../../imgs/undraw.svg) no-repeat center / cover;
+  background: url(../../imgs/undraw.svg) no-repeat center / contain;
   height: 300px;
   width: 400px;
 }
 
 @media screen and (min-width: 1440px) {
   .contato__image {
-    height: 500px;
+    height: 400px;
   }
 }
 
